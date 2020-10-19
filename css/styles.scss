@@ -1,5 +1,7 @@
 $background-dark: #ED7D31;
 $background-grey: #F6F6F6;
+$background-dark-grey: #2E2E2E;
+$light-orange: #f1c74a;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -39,4 +41,35 @@ $carousel-item-height: 300px;
 
 .reason{
 	background:$background-grey;
+}
+
+.lg-pad{
+	padding: 20px 0px 20px 0px;
+}
+
+.sm-pad{
+	padding: 10px 0px 10px 0px;
+}
+
+.map-container-2{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+
+.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.footer{
+  background:$background-dark-grey;
+	@include zero-margin(10px,0px);
+  .footer-link{
+		color:$light-orange;
+	}
 }

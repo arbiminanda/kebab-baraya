@@ -23,3 +23,29 @@
 
 .reason {
   background: #F6F6F6; }
+
+.lg-pad {
+  padding: 20px 0px 20px 0px; }
+
+.sm-pad {
+  padding: 10px 0px 10px 0px; }
+
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.footer {
+  background: #2E2E2E;
+  margin: 0px auto;
+  padding: 10px 0px; }
+  .footer .footer-link {
+    color: #f1c74a; }
